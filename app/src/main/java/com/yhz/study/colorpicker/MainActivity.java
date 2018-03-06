@@ -12,9 +12,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ColorPickView colorPickView = findViewById(R.id.colorPickView);
         final TextView textView = findViewById(R.id.showTv);
         textView.setBackgroundColor(Color.RED);
+
+        ColorPickView colorPickView = findViewById(R.id.colorPickView);
         colorPickView.setBarListener(new ColorPickView.OnColorBarListener() {
             @Override
             public void moveBar(int color) {
