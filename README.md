@@ -8,6 +8,7 @@
 **如何使用？**
 
 step1：把ColorPickView的代码复制到本地。
+
 step2:在布局文件中设置。
 
 <img src = "https://github.com/droidXZ/ColorPickView/blob/master/screenshoot/layout.png"/>
