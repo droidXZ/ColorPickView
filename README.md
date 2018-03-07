@@ -3,7 +3,7 @@
 
 **效果预览图**
 
-<img src = "https://github.com/droidXZ/ColorPickView/blob/master/screenshoot/colorpick.gif"  width="60%"/>
+<img src = "https://github.com/droidXZ/ColorPickView/blob/master/screenshoot/colorpick.gif"  width="40%"/>
 
 **如何使用？**
 
