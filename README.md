@@ -1,4 +1,4 @@
-# ColorPickView
+# 👉 ColorPickView
 一个自定义的颜色选择view(A custom selected color view)
 
 **效果预览图（Preview）**
