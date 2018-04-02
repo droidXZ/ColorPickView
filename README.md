@@ -5,7 +5,7 @@
 
 <img src = "https://github.com/droidXZ/ColorPickView/blob/master/screenshoot/colorpick.gif"  width="40%"/>
 
-**如何使用？（How to ues?）**
+**如何使用？（How to use?）**
 
 step1：把ColorPickView的代码复制到本地(Copy the ColorPickView code to the local)。
 
