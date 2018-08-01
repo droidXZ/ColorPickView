@@ -25,14 +25,14 @@ public class ColorPickView extends LinearLayout {
         public void moveBar(int color);
     }
 
-    //设置的默认颜色
+    //设置的第一个默认颜色
     private static final int[] PICKCOLORBAR_COLORS = new int[]{Color.rgb(255,0,0),
             Color.rgb(255,255,0),Color.rgb(0,255,0),
             Color.rgb(0,255,255),Color.rgb(0,0,255)};
-    //每个颜色的位置
+    //第一个条每个颜色的位置
     private static final float[] PICKCOLORBAR_POSITIONS = new float[]{0f,0.25f,0.5f,0.75f,1f};
     private static final float[] SUBBAR_POSITIONS = new float[]{0f,1f};
-
+    //第二个条的颜色
     private int[] mSubColors = new int[]{Color.BLACK,Color.RED};
     private SeekBar mMainBar;
     private SeekBar mSubBar;
@@ -76,6 +76,9 @@ public class ColorPickView extends LinearLayout {
         setSubBarBg(Color.RED);
     }
 
+    /**
+    *第一个条的设置
+    */
     private void initMainBarBg(){
         ShapeDrawable.ShaderFactory shaderFactory = new ShapeDrawable.ShaderFactory() {
             @Override
